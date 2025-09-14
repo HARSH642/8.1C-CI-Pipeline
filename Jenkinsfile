@@ -19,8 +19,8 @@ pipeline {
         stage('Integration Tests on Staging') {
             steps { echo 'Running Selenium tests...' }
         }
-        stage('Deploy to Production') {
-            steps { echo 'Deploying to production...' }
+        stage('Deploy to Production completed') {
+            steps { echo 'production completed...' }
         }
     }
 }
